@@ -149,3 +149,7 @@ config.py
 #data file
 
 /Data/chest_xray/
+
+#ignore .jpeg
+
+*.jpeg
