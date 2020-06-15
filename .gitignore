@@ -145,3 +145,7 @@ Thumbs.db
 
 # config file
 config.py
+
+#data file
+
+/Data/chest_xray/
