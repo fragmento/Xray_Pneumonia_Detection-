@@ -57,22 +57,15 @@ To the left we can see lungs with Pneumonia, notice the opacity versus the healt
 >For scoring the models the main metric we used is 'Recall' - for this project that means out of all sick patients how many were we able to predict correctly.
 
 For the first model we trained a CNN over a subset of training images (250 for each class)  
-
-<insert summary>
-
-
 This ended with a recall score of 57.95%. Since 62.5% of the testing set is patients with pneumonia the base model of always predicting pneumonia is better. 
 
 For the second model we used Alexnet CNN architecture. At first when trained on the subset, it predicted every test image as healthy. <br> But when training it over the entire training set, it proved to be very valuable with a recall of 99%! (Precision of 74%)
-
-
 
 Finally, we took this model and trained for 25 epochs which ended up overfitting, improving recall with a slight nudge and decreasing precision by 2 percentage points.
 
 Transfer learning 
 
-(---display number of epochs and scores---) for the readme??
----display confusion matrix----
+
 
 ----display summary table of model---
 
