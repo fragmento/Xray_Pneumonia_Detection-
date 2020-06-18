@@ -28,6 +28,8 @@ In this study, a deep learning model is proposed for the automatic diagnosis of 
 
 The first model is a recreation of an AlexNet architecture
 
+![](Data/model_architecture.png)
+
 This model won the 2012 ImageNet ILSVRC challenge by a large margin: it achieved a top-five error rate of 17%, while the second best achieved only 26%! It was developed by Alex Krizhevsky (hence the name), Ilya Sutskever, and Geoffrey Hinton. It is similar to LeNet-5, only much larger and deeper, and it was the first to stack convolutional layers directly on top of one another, instead of stacking a pooling layer on top of each convolutional layer.
 
 
