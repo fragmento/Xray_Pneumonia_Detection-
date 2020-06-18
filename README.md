@@ -35,8 +35,8 @@ __________
 ## Visuals
 
 To the left we can see lungs with Pneumonia, notice the opacity versus the healthy lungs on the right<br>
-<img src='Notebooks/Sick_lungs.jpeg' align="left"/> 
-<img src='Notebooks/Healthy_lungs.jpeg' align="right"/> 
+<img src='Notebooks/Sick_lungs.png' align="left"/> 
+<img src='Notebooks/Healthy_lungs.png' align="right"/> 
 
 <br>
 <br>
