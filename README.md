@@ -34,7 +34,7 @@ The dataset we used is from https://www.kaggle.com/paultimothymooney/chest-xray-
 __________
 ## Visuals
 
-To the left we can see lungs with Pneumonia, notice the opacity versus the healthy lungs on the right<br>
+To the left we can see lungs with Pneumonia, notice the opacity and lesser apparent edges versus the healthy lungs on the right<br>
 <img src='Reports/Sick_lungs.png' align="left"/> 
 <img src='Reports/Healthy_lungs.png' align="right"/> 
 
@@ -61,13 +61,10 @@ This ended with a recall score of 57.95%. Since 62.5% of the testing set is pati
 
 For the second model we used Alexnet CNN architecture. At first when trained on the subset, it predicted every test image as healthy. <br> But when training it over the entire training set, it proved to be very valuable with a recall of 99%! (Precision of 74%)
 
-Finally, we took this model and trained for 25 epochs which ended up overfitting, improving recall with a slight nudge and decreasing precision by 2 percentage points.
 
 Transfer learning 
+We used 7 layers from the pre-trained Xeception model, with the first five layers frozen (not updating  weights).
 
-
-
-----display summary table of model---
 
 conclusion
-### Final Model Summary
+
