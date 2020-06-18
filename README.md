@@ -61,10 +61,11 @@ This ended with a recall score of 57.95%. Since 62.5% of the testing set is pati
 
 For the second model we used Alexnet CNN architecture. At first when trained on the subset, it predicted every test image as healthy. <br> But when training it over the entire training set, it proved to be very valuable with a recall of 99%! (Precision of 74%)
 
-
 Transfer learning 
 We used 7 layers from the pre-trained Xeception model, with the first five layers frozen (not updating  weights).
+We used the larget testing set of 624 images for validating this model and kept 16 images held out. 
+Out 8 healthy patients the model got it all correct, for 8 sick patients the model accurately classified 7 of them!
+This was our final model.  
 
 
-conclusion
 
